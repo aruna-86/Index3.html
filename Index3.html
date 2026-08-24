@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Blogs</title>
+
+    <style>
+         {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: white;
+        }
+
+        .container {
+            width: 900px;
+            margin: 50px auto;
+        }
+
+    
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            margin-bottom: 25px;
+        }
+
+        .top h2 {
+            color: lightgray;
+            font-size: 22px;
+        }
+
+        .top button {
+            background: gold;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 7px 15px;
+            font-size: 10px;
+        }
+
+    
+
+        .main {
+            display: flex;
+            gap: 40px;
+        }
+
+
+        .left {
+            width: 60%;
+        }
+
+        .left img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .date {
+            font-size: 9px;
+            color: red;
+            margin-top: 8px;
+        }
+
+        .left h3 {
+            font-size: 15px;
+            margin: 5px 0;
+        }
+
+        .text {
+            font-size: 10px;
+            color: pink;
+            line-height: 1.5;
+        }
+          .right {
+            width: 40%;
+
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .recipe {
+            display: flex;
+            gap: 10px;
+        }
+
+        .recipe img {
+            width: 90px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .recipe-text {
+            flex: 1;
+        }
+
+        .recipe-text .date {
+            margin: 0 0 3px 0;
+        }
+
+        .recipe-text span {
+            font-size: 8px;
+            color: orange;
+        }
+
+        .recipe-text h4 {
+            font-size: 11px;
+            margin: 3px 0;
+        }
+
+        .recipe-text p {
+            font-size: 8px;
+            color: sky blue;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- TOP -->
+        <div class="top">
+
+            <h2>Recipe Blogs</h2>
+
+            <button>View more</button>
+
+        </div>
+  <div class="main">
+    <div class="left">
+  <img src="main.jpg" alt="Recipe">
+
+                <p class="date">November 16, 2018</p>
+
+                <h3>Our Recipes Blog</h3>
+
+                <p class="text">
+                Delicious food in our restaurant 
+                </p>
+
+            </div>
+            <div class="right">
+          <div class="recipe">
+          <img src="recipe1.jpg" alt="Hot Meatloaf">
+
+                    <div class="recipe-text">
+
+                        <p class="date">April 27, 2019</p>
+
+                        <span>FOOD</span>
+
+                        <h4>Hot Meatloaf</h4>
+
+                        <p>delicious food</p>
+
+                    </div>
+                    </div>
+                <div class="recipe">
+
+                    <img src="recipe2.jpg" alt="Instant Pot">
+
+                    <div class="recipe-text">
+
+                        <p class="date">May 14, 2019</p>
+
+                        <span>FOOD</span>
+
+                        <h4>Instant Pot Pulled</h4>
+
+                        <p>Lorem ipsum dolor sit amet</p>
+
+                    </div>
+                    </div>
+                <div class="recipe">
+
+                    <img src="recipe3.jpg" alt="Grill Salmon">
+
+                    <div class="recipe-text">
+
+                        <p class="date">May 20, 2019</p>
+
+                        <span>FOOD</span>
+
+                        <h4>Best Grill Salmon</h4>
+
+                        <p>grilled lolipop</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
